@@ -3,7 +3,7 @@ ARCH='any'
 
 DEPENDS='safinaskar/libsh'
 BUILD_DEPENDS='prog:cmake:cmake prog:make:make prog:c++:g++'
-LIBS='libc:6 libstdc++:6:libstdc++-6-dev'
+LIBS='libc:6 libstdc++:6:g++'
 
 INSTALL='[ -e CMakeCache.txt ] && echo "Failed: CMakeCache.txt" && exit 1;'\
 \
